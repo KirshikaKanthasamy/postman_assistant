@@ -1,0 +1,21 @@
+<form role="form" style="align-content: center" (submit)="onAdd()" >
+  <div class="form-group">
+    <div class="form-group">
+      <label>Letter ID</label>
+      <input class="form-control" type="text" placeholder="0000000000" [(ngModel)]="letter_id" name="letter_id" required style="width: 350px">
+    </div>
+
+  </div>
+
+  <div class="form-group">
+    <label>Address</label>
+    <ul> <input class="form-control" type="text" placeholder="House number" [(ngModel)]="add_no" name="add_no" style="width: 350px"></ul>
+    <ul><input class="form-control" type="text" placeholder="Street name" [(ngModel)]="add_street" name="add_street" required style="width: 350px"></ul>
+    <ul><input class="form-control" type="text" placeholder="Area name" [(ngModel)]="add_area" name="add_area" required style="width: 350px"></ul>
+    <ul><input class="form-control" type="text" placeholder="City name" [(ngModel)]="add_city" name="add_city" required style="width: 350px"></ul>
+  </div>
+
+  <button type="submit" class="btn btn-info" value="submit"> ADD</button>
+  <!--<div class="alert"> New user is added successfully</div>-->
+
+</form>

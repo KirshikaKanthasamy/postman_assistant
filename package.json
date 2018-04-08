@@ -1,0 +1,25 @@
+{
+  "name": "postman_assistant",
+  "version": "1.0.0",
+  "description": "Postman Assistant",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "^4.16.2",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Kirshika",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/cli": "^1.7.3"
+  }
+}
